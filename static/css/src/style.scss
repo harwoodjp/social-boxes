@@ -146,5 +146,13 @@ body {
 		}
 	}
 }
+@media (max-width:600px) {
+	.about-box {
+		img {
+			width:70% !important;
+		}
+	}
+
+}
 
 
