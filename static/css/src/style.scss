@@ -14,9 +14,38 @@ body {
 	flex-wrap:wrap;	
 	justify-content:center;
 }
+.flex-column {
+	display:flex;
+	flex-direction:column;
+}
 .flex-row {
 	display:flex;
 	flex-direction:row;
+}
+.header {
+	align-items:center;
+	h1 {
+		color:$form-bg;
+		text-shadow: 0 2px 0 $shadow-black;		
+	}
+	h1:hover {
+		text-shadow: 0 2px 0 black;		
+	}
+	.icons {
+		i {
+			background-color:$form-bg;
+			border-radius:50%;
+			box-shadow: 5px 5px 15px $shadow-black;			
+			color:$text-black;
+			font-size:1.5em;
+			margin:.5em;
+			padding:.5em;
+		}
+		i:hover {
+			transition:.05s;
+			color:black;
+		}
+	}
 }
 .image {
 	.container {
@@ -59,6 +88,9 @@ body {
 		}
 	}
 
+}
+.item:hover {
+	color:black;
 }
 .text {
 }
