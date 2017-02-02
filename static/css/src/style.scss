@@ -49,7 +49,6 @@ body {
 	align-items:center;
 	h1 {
 		color:$form-bg;
-		font-size: calc(1em + 1.5vw);
 		text-shadow: 1px 1px 2px $shadow-black;		
 	}
 	.icons {
@@ -68,7 +67,7 @@ body {
 		}
 		i:hover {
 			transition:.05s;
-			color:black;
+			color:#3D00FF;
 		}
 	}
 	img {
@@ -140,6 +139,11 @@ body {
 	.item {
 		flex-basis:35em;
 		height:auto;
+	}
+	.header {
+		h1 {
+			font-size: calc(.8em + 2.5vw);
+		}
 	}
 }
 
