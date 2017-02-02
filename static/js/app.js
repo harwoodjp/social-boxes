@@ -15,7 +15,5 @@ blogBtn.addEventListener("click", function() {
 })
 
 if (document.location.hash == "#about") {
-	console.log("hash = about");
-	contentArea.classList.add("hidden");
-	aboutBox.classList.remove("hidden");
+	aboutBtn.click();
 }
